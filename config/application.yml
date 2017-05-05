@@ -1,0 +1,18 @@
+# IMPORTANT: Rename this file to `application.yml` before pasting in sensitive information
+# like OAuth keys, as that filename is excluded via `.gitignore`
+
+development:
+  SECRET_KEY_BASE: 7fdb51c9865aca153e9d605d8f879c2b5258c8b08caa889f78e51f10c64ac2a5854e9292a1a98c488913ed140962441d094d6576baface17c481534c0e7899bd
+
+test:
+  SECRET_KEY_BASE: 7fdb51c9865aca153e9d605d8f879c2b5258c8b08caa889f78e51f10c64ac2a5854e9292a1a98c488913ed140962441d094d6576baface17c481534c0e7899bd
+
+production:
+  SECRET_KEY_BASE: 7fdb51c9865aca153e9d605d8f879c2b5258c8b08caa889f78e51f10c64ac2a5854e9292a1a98c488913ed140962441d094d6576baface17c481534c0e7899bd
+
+TWITTER_OAUTH_KEY: #copy from https://apps.twitter.com
+TWITTER_OAUTH_SECRET: #copy from https://apps.twitter.com
+GITHUB_OAUTH_KEY: #copy from https://github.com/settings/developers
+GITHUB_OAUTH_SECRET: #copy from https://github.com/settings/developers
+FACEBOOK_OAUTH_KEY: 747125268791834  => '12345'
+FACEBOOK_OAUTH_SECRET: a4b7793a4e8d8c709d42bd6a152645df
